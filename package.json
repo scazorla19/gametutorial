@@ -1,0 +1,25 @@
+{
+  "name": "gametutorial",
+  "version": "1.0.0",
+  "description": "Practice game",
+  "main": "game.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/index.html --public-url /gametutorial/",
+    "start": "parcel src/index.html -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rey",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "gh-pages": "^2.2.0",
+    "minimist": "^1.2.5"
+  },
+  "dependencies": {
+    "game": "^1.0.3",
+    "parcel-bundler": "^1.12.4",
+    "phaser": "^3.23.0"
+  }
+}
