@@ -18,5 +18,8 @@ node_modules
 # Parcel cache
 .cache
 
+# Parcel package
+dist
+
 # Mac file
 .DS_Store
